@@ -1,3 +1,5 @@
+<br /><br />
+
 <?php $comments = R::findAll( 'comments' , ' ORDER BY date DESC ' ); ?>
 
 <?php if(is_array($comments) && !empty($comments)): ?>
